@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dsh8rtw7r1mhl"]
+
+[ext_resource type="Script" uid="uid://oba0ylca7e6k" path="res://police_car.gd" id="1_1k6jk"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xrivr"]
+
+[node name="Node3D" type="Node3D" unique_id=2008245778]
+
+[node name="police_car" type="CharacterBody3D" parent="." unique_id=1330221451]
+script = ExtResource("1_1k6jk")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="police_car" unique_id=471863566]
+shape = SubResource("BoxShape3D_xrivr")
+debug_color = Color(0.7106854, 0.4861167, 0.0027322865, 0.41960785)
